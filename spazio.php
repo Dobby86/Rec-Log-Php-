@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -19,9 +21,10 @@
         <!-- jquery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <!-- font awesome -->
+        
        
         <link href="style.css" rel="stylesheet">
-        <link href="img.css" rel="stylesheet">
+       
     </head>
     <body>
         <nav>
@@ -54,7 +57,20 @@
   
                         <div class="parteSinistra col-xs-6 col-lg-6">
 
-                          <h2> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ducimus sint corrupti dignissimos! Doloremque, maiores commodi eius sint dicta assumenda a esse vitae molestias expedita excepturi ad, repellat odit similique.</h2>
+                        
+
+                         <h2>Che tempo fà?</h2>
+                            <br> <br>
+                         <h2>Scegli città</h2>
+                         <br> <br>
+                         <input type="text" id="city">
+                         <br> <br>
+                        <button id="prova">
+                            cerca
+                        </button>
+                        <br>
+                        <h1 id="ris"></h1>
+                        
                         </div>
 
   
